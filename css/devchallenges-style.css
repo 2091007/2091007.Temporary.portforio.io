@@ -1,0 +1,370 @@
+@charset "UTF-8"; /* 文字コードの指定 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');/* Google Fonts用のCSSを読み込み */
+/*幅1440px高さ2561px*/
+
+body { /*画面全体で共通の記述（背景色・フォント）*/
+    height: 177.85vw;
+    background-color: #F2F2F2;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.portfolio { /*項目で共通の記述（背景色・角）*/
+    background-color: #FFFFFF;
+    border-radius: 1vw;
+    box-shadow: 0px 8px 10px -8px #828282;
+}
+
+h1 {
+    font-size: 1.67vw; /*24px*/
+    color: #4F4F4F
+}
+
+h2 {
+    font-size: 1.25vw; /*18px*/
+    color: #828282;
+}
+
+h3 {
+    font-size: 1.11vw; /*16px*/
+    color: #333333;
+}
+
+h4 {
+    font-size: 0.972vw; /*14px*/
+    color: #828282;
+}
+
+#whole {
+    display:flex;
+    flex-direction:row;
+    padding: 4.93vw 4.9vw 2.15vw 4.5vw;
+}
+
+#left {
+    height: 160vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin-right: 2.2vw;
+}
+
+#right {
+    display:flex;
+    flex-direction:column;
+}
+
+#right-top {
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+    margin-bottom: 3.33vw;
+}
+
+    /*ここからBilly自己紹介*/
+    .person {
+        width: 28.68vw;
+        height: 48.67vw;
+        padding: 1.6vw;
+    }
+    
+    .billy img {
+        width:  25.34vw;
+        text-align: center;
+    }
+    
+    .person h1 {
+        font-weight: 600;
+        margin-top: 1.8vw;
+    }
+    
+    .person h2 {
+        margin-top: 0.44vw;
+        margin-bottom: 2.25vw;
+    }
+    
+    .contact {
+        display: flex
+    }
+
+        .fas {
+            width: 1.39vw;
+            color: #4F4F4F;
+            margin-right: 1.31vw;
+            margin-bottom: 0.8vw;
+        }
+        .fas p {
+            color: #4F4F4F;
+            margin-bottom: 0.8vw;
+         }
+    
+    .person h2 p {
+        margin-top: 2.8vw;
+    }
+    
+    
+
+    /*ここまでBilly自己紹介*/
+    
+    /*ここからExperiences*/
+    .experiences {
+        width: 28.68vw;
+        height: 47.92vw;
+        padding: 1.6vw;
+    }
+
+    .experiences00 {
+        display: flex;
+        flex-direction:row;
+    }
+    
+    .experiences01 .experiences02 {
+        display: flex;
+        flex-direction:column;
+    }
+
+    .experiences img {
+        width:5vw;
+        margin-top: 3.3vw;
+        margin-bottom: 7vw;
+    }
+    
+    .date .title .content {
+        margin-left:8vw;
+    }
+    
+    .date {
+        margin-top: 2.7vw;
+    }
+    
+    .title {
+        font-weight: 600;
+        margin-top: 0.83vw;
+    }
+    
+    .content {
+        color: #828282;
+        margin-top: 2.3vw;
+    }
+    
+    /*ここまでExperiences*/
+    
+    
+    
+    /*ここからHobbies*/
+    .hobbies {
+        width: 28.68vw;
+        height: 58.1vw;
+        padding: 1.527vw;
+    }
+    
+    .hobbies img {
+        width:25.63vw;
+        border-radius: 1vw;
+        margin-top: 1.81vw;
+        margin-bottom: 1.81vw;
+    }
+    
+    .hobbies h2 {    
+        color: #333333;
+    }
+    
+    .hobbies h3 {    
+        color: #828282;
+        margin-top: 0.7vw;
+        margin-bottom: 0.7vw;
+    }
+    
+    /*ここまでHobbies*/
+    
+    
+    
+    /*画面左はここまで*/
+    
+    
+    
+    /*ここからFront endとDesign*/
+    .front-end {
+        width: 28.82vw;
+        height: 21.04vw;
+        padding: 1.63vw;
+        margin-right: 2.22vw;
+    }
+    
+    .design {
+        width: 28.82vw;
+        height: 10.9vw;
+        padding: 1.63vw;
+    }
+    
+    .graph {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+        #right-top h2 {
+            font-weight: 700;
+            color:#4F4F4F;
+            margin-bottom: 1.19vw;
+        }
+        
+        #right-top h3 {
+            color:#4F4F4F;
+            margin-bottom: 1.19vw;
+        }
+        
+        .backgroundbar {
+            width: 16.5vw;
+            height: 0.66vw;
+            background-color: #C4C4C4;
+            border-radius: 1vw;
+         }
+         
+        .graph .bar {
+            display: block;
+            height: 0.7vw;
+            background: #2F80ED;
+            border-radius: 1vw;
+        }
+    /*ここまでFront endとDesign*/
+    
+
+    /*ここからProjects (3)  ここからBlogs (1)と同じ*/
+    .projects-blogs {
+        width: 59.86vw;
+        height: 4.58vw;
+        color: #4F4F4F;
+        padding:1.52vw;
+        margin-bottom: 1.11vw;
+    }
+    /*ここまでProjects (3)  ここからBlogs (1)と同じ*/
+    
+    
+    
+    /*ここからhtml-css*/
+    .html-css {
+        width: 59.65vw;
+        height: 22.22vw;
+        display:flex;
+        padding: 1.26vw;
+        margin-bottom: 2.5vw;
+    }
+    
+    .html-css img {
+        width:22.36vw;
+        margin-right: 2.38vw;
+    }
+    .html-css-r {
+        display:flex;
+        flex-direction:column;
+    }
+    
+        .hashtag {
+            width: 18vw;
+            height: 1.39vw;
+            display: flex;
+            justify-content:space-between;
+            margin-bottom: 1.73vw;
+            color: #4F4F4F;
+        }
+        
+        .html-css h1 {
+            color:#333333;
+            margin-bottom: 1.8vw;
+        }
+        
+        .html-css h3 {
+            width: 32.08vw;
+            color: #828282;
+            margin-bottom: 4.5vw;
+        }
+        
+        .button {
+            display: flex;
+        }
+        
+        .demo input[type="submit"] {
+            width: 9.5vw;
+            height: 3.2vw;
+            background-color: #2F80ED;
+            font-size: 1.25vw;
+            color: #FFFFFF;
+            text-align: center;
+            border-radius: 1vw;
+            margin-right: 0.77vw;
+        }
+        
+        .code input[type="submit"] {
+            width: 8.3vw;
+            height: 3.2vw;
+            font-size: 1.25vw;
+            color: #2F80ED;
+            border: solid 0.1vw #2F80ED;
+            text-align: center;
+            border-radius: 1vw;
+        }
+    /*ここまでhtml-css*/
+
+    
+
+    
+    /*ここからHow to organize your CSS*/
+    .how-to-organize {
+        width: 59.65vw;
+        height: 30.7vw;
+        display:flex;
+        flex-direction:row;
+    }
+    
+    .how-to-l {
+        display:flex;
+        flex-direction:column;
+        padding-top: 2.3vw;
+        margin-left: 1.39vw;
+    }
+        .how-to-l p {
+            font-size: 1.11vw;
+            color: #E0E0E0;
+            margin-bottom: 2vw;
+        }
+        .how-to-l h1 {
+            color: #333333;
+            margin-bottom: 1.81vw;
+        }
+        
+        .how-to-l h3 {
+            width: 22.1vw;
+            color: #828282;
+            margin-bottom: 1.1vw;
+        }
+        
+        a {
+            font-size: 1.11vw;
+            color: #2F80ED; 
+            text-decoration: none;
+            margin-top: 1.5vw;
+        }
+    
+        .how-to-organize img {
+            width:30vw;
+            height: 25vw;
+            margin-left: auto; /*画像を右寄せしたいとき*/
+            padding-top: 2.5vw;
+        }
+        
+    
+    /*ここまでHow to organize your CSS*/
+    
+    /*ここからフッター*/
+    footer {
+        margin-top: 8.5vw;
+        text-align: center;
+    }
+    
+    footer span{
+        font-weight: 700;
+        border-bottom: 1px solid #828282;
+    }
+    /*ここまでフッター*/
+    
